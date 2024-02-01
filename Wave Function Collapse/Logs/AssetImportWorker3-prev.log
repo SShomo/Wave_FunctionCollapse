@@ -15,7 +15,7 @@ C:/Users/samantha.shomo/Documents/repo/Wave_FunctionCollapse/Wave Function Colla
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-59400
+62097
 Successfully changed project path to: C:/Users/samantha.shomo/Documents/repo/Wave_FunctionCollapse/Wave Function Collapse
 C:/Users/samantha.shomo/Documents/repo/Wave_FunctionCollapse/Wave Function Collapse
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/samantha.shomo/Documents/repo/Wave_FunctionCollapse/Wave Function Colla
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23048] Host "[IP] 216.93.147.114 [Port] 0 [Flags] 2 [Guid] 333086049 [EditorId] 333086049 [Version] 1048832 [Id] WindowsEditor(7,F2ND-05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24212] Host "[IP] 216.93.147.114 [Port] 0 [Flags] 2 [Guid] 2805533693 [EditorId] 2805533693 [Version] 1048832 [Id] WindowsEditor(7,F2ND-05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23048] Host "[IP] 216.93.147.114 [Port] 0 [Flags] 2 [Guid] 333086049 [EditorId] 333086049 [Version] 1048832 [Id] WindowsEditor(7,F2ND-05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24212] Host "[IP] 216.93.147.114 [Port] 0 [Flags] 2 [Guid] 2805533693 [EditorId] 2805533693 [Version] 1048832 [Id] WindowsEditor(7,F2ND-05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 33.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 25.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009904 seconds.
-- Loaded All Assemblies, in  0.507 seconds
+Registered in 0.010039 seconds.
+- Loaded All Assemblies, in  0.426 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.294 seconds
-Domain Reload Profiling: 795ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.348 seconds
+Domain Reload Profiling: 772ms
+	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (13ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (188ms)
-		LoadAssemblies (174ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (126ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (171ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (153ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (294ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (349ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (234ms)
+		SetupLoadedEditorAssemblies (274ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (164ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,132 +116,56 @@ Domain Reload Profiling: 795ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.907 seconds
-Refreshing native plugins compatible for Editor in 13.62 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.885 seconds
+Refreshing native plugins compatible for Editor in 16.14 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.853 seconds
-Domain Reload Profiling: 1754ms
+- Finished resetting the current domain, in  1.016 seconds
+Domain Reload Profiling: 1894ms
 	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (615ms)
-		LoadAssemblies (441ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (283ms)
-			TypeCache.Refresh (241ms)
-				TypeCache.ScanAssembly (212ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (854ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (680ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (390ms)
-			ProcessInitializeOnLoadMethodAttributes (174ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 18.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5069 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (78.0 KB). Loaded Objects now: 5503.
-Memory consumption went from 166.3 MB to 166.2 MB.
-Total: 8.258400 ms (FindLiveObjects: 0.467300 ms CreateObjectMapping: 0.671000 ms MarkObjects: 6.968900 ms  DeleteObjects: 0.150200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d4d913e6ce3cfe6f60900d8d0098be1d -> bb812b7168b348eb9fb5f58a1ee42062
-  custom:scripting/monoscript/fileName/Node.cs:  -> ee6dc52feca05384d7546757ddd02de6
-========================================================================
-Received Import Request.
-  Time since last request: 902058.732858 seconds.
-  path: Assets/Art/TX Tileset Wall.png
-  artifactKey: Guid(51c3ecc73cb29b341992e71d33bd6637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/TX Tileset Wall.png using Guid(51c3ecc73cb29b341992e71d33bd6637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b01f63180fa3bac4be029e14a63418') in 0.114532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.732 seconds
-Refreshing native plugins compatible for Editor in 16.69 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.510 seconds
-Domain Reload Profiling: 2234ms
-	BeginReloadAssembly (201ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (47ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (48ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (478ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (585ms)
+		LoadAssemblies (459ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1511ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (167ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1016ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (651ms)
+		SetupLoadedEditorAssemblies (804ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (323ms)
-			ProcessInitializeOnLoadMethodAttributes (188ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 19.64 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 19.28 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (52.3 KB). Loaded Objects now: 5514.
-Memory consumption went from 169.4 MB to 169.3 MB.
-Total: 8.763700 ms (FindLiveObjects: 0.395700 ms CreateObjectMapping: 0.397900 ms MarkObjects: 7.881300 ms  DeleteObjects: 0.087700 ms)
+Unloading 5070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (77.6 KB). Loaded Objects now: 5504.
+Memory consumption went from 166.3 MB to 166.2 MB.
+Total: 7.998000 ms (FindLiveObjects: 0.420200 ms CreateObjectMapping: 0.661800 ms MarkObjects: 6.746400 ms  DeleteObjects: 0.168200 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -255,58 +179,1113 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Node.cs: ee6dc52feca05384d7546757ddd02de6 -> 7cc1f1dcf64e90912b12618fb0fb9d32
+========================================================================
+Received Import Request.
+  Time since last request: 915022.347882 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95264c9734ec3c336b00a033bff72e85') in 0.096431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 66.118673 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5676733296169c160276c467fc0f7c9f') in 0.010428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc8cf833846a183c892396ae49b7c8a') in 0.009790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c375095cd9809a2865ee500bd877de1a') in 0.007921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b844ffc6e07d19e1a527d69aec03d85') in 0.008944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 8.006274 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac80efc38e2e669c9188d4ba0b6f50f') in 0.008083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad4e6077fc730e247b461a0f8feea9d') in 0.008036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06d65791dd5c7fe7512119b10aa2fc0') in 0.007398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 4.356327 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ef9530ef0d11dac451ee027bf7ad3b') in 0.009348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531740d42079c8b9c5ca9b7f6abe4326') in 0.007925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 97.170039 seconds.
+  path: Assets/Prefab/Grass Stone Down Left.prefab
+  artifactKey: Guid(102a8ffec6bb33f4d9e8c5c9582b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Left.prefab using Guid(102a8ffec6bb33f4d9e8c5c9582b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445f6ae84d2300a23f8a4fec49253de6') in 0.009304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.001555 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff4f4d523daa52ab583f2ce3dbe41dc') in 0.010234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23e9dec52a0891633b81ea56521c2a9') in 0.008465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0c23e2cd6d665a621f0fcc554ebc05') in 0.009863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5657bedbabd939dfa68872a4b5acd05') in 0.009968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.805330 seconds.
+  path: Assets/Prefab/Grass Stone Down Left.prefab
+  artifactKey: Guid(102a8ffec6bb33f4d9e8c5c9582b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Left.prefab using Guid(102a8ffec6bb33f4d9e8c5c9582b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd92805ef14817904e8df4be6e07729d') in 0.008386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92aea03e4ad750ee3b1fdf19cb6accb1') in 0.008342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefab/Grass Stone Up Right.prefab
+  artifactKey: Guid(7c100b16bddcdde47b05c548d52f4330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Right.prefab using Guid(7c100b16bddcdde47b05c548d52f4330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad333b0ae03cacee3b29978bf3efe4f') in 0.007470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8889ee89cb359bf1ad2e0c815d4406ab') in 0.010151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82161505838076e7d51a60baf0a518c') in 0.008229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 9.873442 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edcb23c50c1447cba5dc54d80683cc7') in 0.008887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812f7c131aa0b221f8b8f106edefede3') in 0.008145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f302d78a5bd80fce18dc21c01ac06734') in 0.008328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de2c2eab5cd094d8226bdd7330537d7') in 0.010030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 20.746494 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bd4d8abfd3d2733f319c8bbf71a90b') in 0.013564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb008f3504e37e4465e2f907cc1e3b1d') in 0.010130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.283576 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff85ba4df87224c45ffe751520971a2c') in 0.009378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c02e9cba07ec76aaeb0d33d3dbbc8a') in 0.010288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.371049 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5c0d2655606c641878132663cb924c2') in 0.009026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2a9c98bc193a63e24d16e2ed7d15d7') in 0.008432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 46.861013 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a30150e843416b641d61319514d8c7d') in 0.008797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5743d99a69a32c596ab7262905e91078') in 0.010729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 6.896587 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd0291edb8a47c0ec69a47597862d98') in 0.013139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd699f3a7e8928358ef10572217e5c548') in 0.009399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 23.087466 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3591d48403fbb2d7952fce35df29162b') in 0.010400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e127f6bf77faea47e57552aa5f641ad') in 0.010037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.656849 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c438faf134a95b4cfe920185576aa6') in 0.010509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502cf3134941d4236b32f54d71f9512c') in 0.008723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.826167 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8211390f55fc099f03603248ba9817') in 0.008494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6614c16e5807bc0717acc69f276d2adb') in 0.010986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.856974 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cff90c7051dfc7f780fdd22a85333cb') in 0.009450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76684f75294c5693159a3d6da5a6b111') in 0.011572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 4.367656 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b080e984b1a220475c1451b6ae11287') in 0.010380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe15673a93645f457973c0a54b4d5e19') in 0.008781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.895815 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529ca01d8f275d37ece590ef0141ccaa') in 0.016380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e625ba5b8c14954ad382ef6d18dc48d2') in 0.008427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 29.596283 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e78b7476d69f2d5845426a98fe2fb5') in 0.009200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fa9740d1f3a3f817cfef6e0f763808') in 0.009308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 7.242639 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648c1a4924ed80a364c25ff5aa652e27') in 0.011131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286d6c2dea4176cebaa78daeb5448630') in 0.009680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.674095 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a2e8af32587bfacfe67d0ec0b8b477') in 0.010780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b745d84c5ab66f278596a061e4ac42ca') in 0.009088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.416584 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6b2d270b5f971a9f989b1b20c96a7e') in 0.016184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da98d11a4ac0b81819057c1c4abb0b97') in 0.009938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.317232 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515200327297b3d303fcca1c6e8a71d5') in 0.011591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3c651ff55408a9ae2681068c292ce6') in 0.008982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 14.500993 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53c476a2f12deab4a03e74d31550f5e') in 0.013688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea3e25757ca1bd5c0080971a1482ce2') in 0.009238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.673902 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf0e86c74b08868667613ccf6da8f54') in 0.008391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce52636a38471230ee6beda608cf35b') in 0.007760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 35.805859 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a8b1ef9f2b7cbb6c85cc70f3ab81c3') in 0.011406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535f6fc24947c6923d323d3f5dbd7a1a') in 0.012686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.004124 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9b8a1fc77aa4c27c6fd58b6756f8f1') in 0.009775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e12930be071c54123ae2b12074c4071') in 0.009618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 7.277809 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5b5ef4925fec6a84d2cea7aa3e45ac') in 0.011609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51ff172e976dbcaee8931b1a2e57447') in 0.008858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.307942 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9bee9bab37b85a54ef0272363f7559') in 0.009031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b58d4721308f6d5de63de8b12c8093') in 0.008860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.327341 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8b157d92fbefa9af76f5b6e09d1eb1') in 0.009602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d30670bbafc03eda24eeae3e3d949c9') in 0.009530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.332607 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171961d56e95c7160bb4c7cc98e9d671') in 0.013663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91be88913a9e7d2deca895c1dff5cde') in 0.010399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 5.625759 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b08139d58d18f26f70c6b960c9d9bdf') in 0.013205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone Grass Top.prefab
+  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf08c5380bc05766d42a6e9071fd0dd') in 0.008476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.559564 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '237b9bbf8c8c0c9bd46195310ccd005e') in 0.008751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a392fc8b01b2adb1d999f3436f729f94') in 0.011241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 37.598257 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbad6686080efa79954aea123b3084c') in 0.009376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f963582ad08845f4f5cf762a97c8730') in 0.009398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.894292 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06690dda13da116f361021856969cfc') in 0.009417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f00a486d04fd042c38e36a662930a8') in 0.009020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 9.251807 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3171c69a1b27bb9a22fd7b4e7030ab4c') in 0.011093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab73e0be10a689653d6e2f31dd5c8bbe') in 0.009519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.096531 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c191867e34aa7daac6ea1a11931cfc4') in 0.009236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c65d0948e206f4129e81ded50fea71') in 0.009440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.408985 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5e507f64c7812ae641bdb04e622ed2') in 0.010094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7d648b5ef8fd7fec46d8e4039f9fe0') in 0.009050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.466789 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389f5be7aa69224d60edc48f4ca20b5e') in 0.010111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbaf9fb96aa2cc6535d8f23ec2b9d5a') in 0.010140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.680735 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9e9d9164e19de2c5f696df6f940e48') in 0.011570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24f24777ca678eb09906daf3ce455d6') in 0.011531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.871339 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d7ec4e52eaac754f510c877c5c8775') in 0.013484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f6b18cde522cf7e38df8a0f073890c') in 0.012183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 183.488484 seconds.
+  path: Assets/Prefab/Grass.prefab
+  artifactKey: Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass.prefab using Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '734f1cb349eb483bdcb966a2beffbec0') in 0.010568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12481020abe25f6f577b99652b47f030') in 0.009778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29205c296b280dd651e4b4470c39e394') in 0.008678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456d4c5615bc82ec5a373f498314ac79') in 0.008585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2205daa333b12bb4a77fd336d86443ed') in 0.009336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.838328 seconds.
+  path: Assets/Prefab/Grass Stone Down Left.prefab
+  artifactKey: Guid(102a8ffec6bb33f4d9e8c5c9582b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Left.prefab using Guid(102a8ffec6bb33f4d9e8c5c9582b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c418d2e6a6c618019ea87a4bab331b8') in 0.007432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.023970 seconds.
+  path: Assets/Prefab/Grass.prefab
+  artifactKey: Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass.prefab using Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3d4ed9a972c3aa9c47a0806575b1c8') in 0.008634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Grass Stone Up Right.prefab
+  artifactKey: Guid(7c100b16bddcdde47b05c548d52f4330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Right.prefab using Guid(7c100b16bddcdde47b05c548d52f4330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e189ad46ba39d38ecbdc5c4139c4b1') in 0.008297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9965776a95fd13ba8bb4a4ef02b82c9f') in 0.008006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9511ffaeb95365a57d7cd126f4abec4') in 0.008655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e632c0d81c3421cf2a8369e7eba0ff0') in 0.009066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.358074 seconds.
+  path: Assets/Prefab/Grass Stone Down Right.prefab
+  artifactKey: Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Right.prefab using Guid(e6258faae3565fc40a05d1c48647d1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7be02a501ec4c17fdc401881d93b6f') in 0.010272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.041686 seconds.
+  path: Assets/Prefab/Grass.prefab
+  artifactKey: Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass.prefab using Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0aa506a079c051f3cf4322251b379f') in 0.009762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1356499972517a8cfd32588ec12234ad') in 0.009086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366babd3ff24a082152b6927e99b40b4') in 0.008997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42019f560e2d054cb0fdc2a16d45c4c') in 0.011381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.046483 seconds.
+  path: Assets/Prefab/Grass Stone Down Left.prefab
+  artifactKey: Guid(102a8ffec6bb33f4d9e8c5c9582b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Down Left.prefab using Guid(102a8ffec6bb33f4d9e8c5c9582b5ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1691d94b019013c166fe5633b7f10b') in 0.009584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Grass Stone Up Right.prefab
+  artifactKey: Guid(7c100b16bddcdde47b05c548d52f4330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Right.prefab using Guid(7c100b16bddcdde47b05c548d52f4330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5855285c1b416cb559d6bc5022cd0e1f') in 0.009680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadc2d1f856ac7584149e2b66e241f8e') in 0.008731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfffe2e3316fa5d68778faa0d946694') in 0.009255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.232284 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67501a23ad7f42d30857b10c040c5a1') in 0.009181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c913bd89cc22d8ec0671b206c9491615') in 0.009387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.638161 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29958972785ba6989bd93ad4b784fcc') in 0.009032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ffd82e018aa7567de25a7b9ec6fdba') in 0.007524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.105432 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8f09e983270643859f2feac8c2c0aa') in 0.008888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1aa3d862c6ea620920e3debab8210f') in 0.007933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.513894 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0f75f01364529f1b8783a5e936b90c') in 0.007814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Stone.prefab
+  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3756de4e3e9ad2837a3fa80e2f18f47c') in 0.008398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 2.446415 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081897349820d0589d0da04db7cda8fd') in 0.009006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ea2f15a16c2bd3f30acb865a94b4cb') in 0.009196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.133581 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe49e78d6a50ff47c5c348c6770b49c') in 0.008050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5df03fe1e8ee3149f64b5730d45089') in 0.008572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.752808 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c933b145757d924ec0f3df20b0bec9bf') in 0.008420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51451362472e65d2c5c528e95c12222') in 0.007790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 1.631221 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ac9921ccd945bf71a1d13ffa39c232') in 0.008496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Stone Grass Right.prefab
+  artifactKey: Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Right.prefab using Guid(89dea73a2bc4a784b83f1f8b588b66a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382e1ce765c53ca6ce2aafed686bbe8b') in 0.008999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.714669 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeaae9662cc5d69e50fbd65a236d7dc') in 0.008808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefab/Stone Grass Left.prefab
+  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcede18550c6b6d71c66bc479bf5478') in 0.008226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.126267 seconds.
+  path: Assets/Prefab/Grass Stone Up Left.prefab
+  artifactKey: Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Grass Stone Up Left.prefab using Guid(03ce2e4dd8002b34eb96ba789a3da77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1a836daeff88a8e8591de56276c0d8') in 0.007857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefab/Stone Grass Bottom.prefab
+  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed44b1b4272bace8da71ee365bac165') in 0.009584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 62
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.617 seconds
-Refreshing native plugins compatible for Editor in 12.47 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.606 seconds
+Refreshing native plugins compatible for Editor in 15.55 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.370 seconds
-Domain Reload Profiling: 1980ms
-	BeginReloadAssembly (184ms)
+- Finished resetting the current domain, in  1.351 seconds
+Domain Reload Profiling: 1951ms
+	BeginReloadAssembly (187ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (41ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (335ms)
-		LoadAssemblies (397ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (407ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (31ms)
-			TypeCache.Refresh (11ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (1371ms)
+	FinalizeReload (1352ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (671ms)
+		SetupLoadedEditorAssemblies (667ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (379ms)
-			ProcessInitializeOnLoadMethodAttributes (172ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (327ms)
+			ProcessInitializeOnLoadMethodAttributes (203ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 21.38 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 20.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5058 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (51.8 KB). Loaded Objects now: 5518.
-Memory consumption went from 171.5 MB to 171.5 MB.
-Total: 6.352800 ms (FindLiveObjects: 0.373600 ms CreateObjectMapping: 0.368200 ms MarkObjects: 5.523800 ms  DeleteObjects: 0.086500 ms)
+Unloading 68 unused Assets / (51.8 KB). Loaded Objects now: 5517.
+Memory consumption went from 169.5 MB to 169.4 MB.
+Total: 7.456400 ms (FindLiveObjects: 0.389400 ms CreateObjectMapping: 0.384200 ms MarkObjects: 6.596000 ms  DeleteObjects: 0.085700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -322,7 +1301,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/Node.cs: ee6dc52feca05384d7546757ddd02de6 -> 7cc1f1dcf64e90912b12618fb0fb9d32
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

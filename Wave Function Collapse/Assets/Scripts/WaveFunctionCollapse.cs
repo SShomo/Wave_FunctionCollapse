@@ -25,7 +25,7 @@ public class WaveFunctionCollapse : MonoBehaviour
         {
             for (int x = 0; x < dimensions; x++)
             {
-                Cell newCell = Instantiate(cellObj, new Vector2(x, y), Quaternion.identity);
+                Cell newCell = Instantiate(cellObj, new Vector2(transform.position.x + x, transform.position.y + y), Quaternion.identity);
                 newCell.CreateCell(false, nodeOpt);
                 gridComponents.Add(newCell);
             }
