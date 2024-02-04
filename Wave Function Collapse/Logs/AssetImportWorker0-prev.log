@@ -15,7 +15,7 @@ C:/Users/samantha.shomo/Documents/repo/Wave_FunctionCollapse/Wave Function Colla
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62097
+49254
 Successfully changed project path to: C:/Users/samantha.shomo/Documents/repo/Wave_FunctionCollapse/Wave Function Collapse
 C:/Users/samantha.shomo/Documents/repo/Wave_FunctionCollapse/Wave Function Collapse
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/samantha.shomo/Documents/repo/Wave_FunctionCollapse/Wave Function Colla
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11240] Host "[IP] 216.93.147.114 [Port] 0 [Flags] 2 [Guid] 3899856888 [EditorId] 3899856888 [Version] 1048832 [Id] WindowsEditor(7,F2ND-05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [684] Host "[IP] 216.93.147.114 [Port] 0 [Flags] 2 [Guid] 1368930255 [EditorId] 1368930255 [Version] 1048832 [Id] WindowsEditor(7,F2ND-05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11240] Host "[IP] 216.93.147.114 [Port] 0 [Flags] 2 [Guid] 3899856888 [EditorId] 3899856888 [Version] 1048832 [Id] WindowsEditor(7,F2ND-05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [684] Host "[IP] 216.93.147.114 [Port] 0 [Flags] 2 [Guid] 1368930255 [EditorId] 1368930255 [Version] 1048832 [Id] WindowsEditor(7,F2ND-05) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 26.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 26.54 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010455 seconds.
-- Loaded All Assemblies, in  0.399 seconds
+Registered in 0.010188 seconds.
+- Loaded All Assemblies, in  0.401 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.326 seconds
-Domain Reload Profiling: 723ms
-	BeginReloadAssembly (115ms)
+- Finished resetting the current domain, in  0.300 seconds
+Domain Reload Profiling: 699ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (167ms)
-		LoadAssemblies (112ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (131ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (165ms)
-			TypeCache.Refresh (163ms)
-				TypeCache.ScanAssembly (148ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (140ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (327ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (300ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (255ms)
+		SetupLoadedEditorAssemblies (235ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (166ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,55 +116,55 @@ Domain Reload Profiling: 723ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.918 seconds
-Refreshing native plugins compatible for Editor in 13.34 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.902 seconds
+Refreshing native plugins compatible for Editor in 13.58 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.013 seconds
-Domain Reload Profiling: 1924ms
-	BeginReloadAssembly (166ms)
+- Finished resetting the current domain, in  0.939 seconds
+Domain Reload Profiling: 1835ms
+	BeginReloadAssembly (158ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (37ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (637ms)
-		LoadAssemblies (461ms)
+	LoadAllAssembliesAndSetupDomain (627ms)
+		LoadAssemblies (468ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (273ms)
-			TypeCache.Refresh (231ms)
-				TypeCache.ScanAssembly (204ms)
-			ScanForSourceGeneratedMonoScriptInfo (35ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (199ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (44ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (1013ms)
+	FinalizeReload (939ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (812ms)
+		SetupLoadedEditorAssemblies (724ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (415ms)
-			ProcessInitializeOnLoadMethodAttributes (266ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (208ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 17.22 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 17.57 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5070 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (77.9 KB). Loaded Objects now: 5504.
+Unloading 5071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 97 unused Assets / (77.9 KB). Loaded Objects now: 5505.
 Memory consumption went from 166.3 MB to 166.2 MB.
-Total: 7.762700 ms (FindLiveObjects: 0.594700 ms CreateObjectMapping: 0.533900 ms MarkObjects: 6.315700 ms  DeleteObjects: 0.317100 ms)
+Total: 10.788300 ms (FindLiveObjects: 0.473200 ms CreateObjectMapping: 0.445700 ms MarkObjects: 9.655500 ms  DeleteObjects: 0.212800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,84 +181,252 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 915022.336070 seconds.
+  Time since last request: 276416.616860 seconds.
   path: Assets/Prefab/Stone Grass Bottom.prefab
   artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d844a3a6ddb70d31c433e9b172a90f') in 0.096734 seconds
+Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93199252a53b36341aa1f824b45037b') in 0.105574 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 62
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
+  Time since last request: 0.000032 seconds.
   path: Assets/Prefab/Stone Grass Left.prefab
   artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf275eedb40b092d1f5d7e7accc2692') in 0.008825 seconds
+Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f2072d9afbc8fd5b2586d588a5ee5e') in 0.009150 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 62
 ========================================================================
 Received Import Request.
-  Time since last request: 66.118949 seconds.
-  path: Assets/Prefab/Grass.prefab
-  artifactKey: Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Grass.prefab using Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ac4084c189535e5b9f657fecb61e41') in 0.011136 seconds
+  Time since last request: 0.660786 seconds.
+  path: Assets/Socket Prefab/R_Path_1.prefab
+  artifactKey: Guid(e01c4e7f3fc155a4f8f828ab8b351dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Socket Prefab/R_Path_1.prefab using Guid(e01c4e7f3fc155a4f8f828ab8b351dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1aa9c3ee77370474720af134fd2cc0') in 0.007969 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Socket Prefab/Stone_2.prefab
+  artifactKey: Guid(c95a1c5a0c787d34894818415ae8c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Socket Prefab/Stone_2.prefab using Guid(c95a1c5a0c787d34894818415ae8c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb54082f74819c1adac43814071fa54') in 0.005329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 300.620289 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_0.asset
+  artifactKey: Guid(3233dde29cfd0d94195ff2a1750e927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_0.asset using Guid(3233dde29cfd0d94195ff2a1750e927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db248518d9f6ddeada5a345980e605a2') in 0.017210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_1.asset
+  artifactKey: Guid(f1a9abbd3f4ec504aac685b7e2cb5ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_1.asset using Guid(f1a9abbd3f4ec504aac685b7e2cb5ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86efd40b970f144a733efef10c49ef5') in 0.005357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000857 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_4.asset
+  artifactKey: Guid(3c7509890a6f33349b4b28a393db45a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_4.asset using Guid(3c7509890a6f33349b4b28a393db45a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d62faec8baa4a9407707897a8b8006') in 0.006408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_11.asset
+  artifactKey: Guid(51cba9729c5190a488783ab5510b04f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_11.asset using Guid(51cba9729c5190a488783ab5510b04f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16517e93c99d1a7692549d61c0595562') in 0.005569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_10.asset
+  artifactKey: Guid(2c70218a36c8cf844b6cdd75cf89c91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_10.asset using Guid(2c70218a36c8cf844b6cdd75cf89c91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7994d6e2ceb6fa06756674ecbeb93e35') in 0.005412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_20.asset
+  artifactKey: Guid(9a15c658d9a7747439382295c71f7b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_20.asset using Guid(9a15c658d9a7747439382295c71f7b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228663f35da5e4cc83c5d79e19b556f2') in 0.005795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_24.asset
+  artifactKey: Guid(1bd3d1d2e02a797438a183692fab9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_24.asset using Guid(1bd3d1d2e02a797438a183692fab9fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e33991418e758a78326f55ecc11e345') in 0.005650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_28.asset
+  artifactKey: Guid(a43bfd71663c18e48b2f1dc6bc544721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_28.asset using Guid(a43bfd71663c18e48b2f1dc6bc544721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b567aae3bcab7408f84860131fa784b0') in 0.007345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_30.asset
+  artifactKey: Guid(2fa69e65709100c408f02e3992c526ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_30.asset using Guid(2fa69e65709100c408f02e3992c526ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e2ec0f67022e8bb2523445f41e4f15') in 0.005799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_39.asset
+  artifactKey: Guid(b29e0adfa7db9d04e8e4269c8bfe0763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_39.asset using Guid(b29e0adfa7db9d04e8e4269c8bfe0763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe84e88391f0895a04374120fe61158e') in 0.005606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_6.asset
+  artifactKey: Guid(fb49548b4d2cc27419ba81b065e89ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_6.asset using Guid(fb49548b4d2cc27419ba81b065e89ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f728d5af415b056d443fe9fb379c82b9') in 0.005307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_35.asset
+  artifactKey: Guid(c9c943e0cb7047543a17f3684a15b1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_35.asset using Guid(c9c943e0cb7047543a17f3684a15b1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d9653252d3a5a093880e585a12d7ee') in 0.007828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_41.asset
+  artifactKey: Guid(1bfcf633881af8745965634f47148f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_41.asset using Guid(1bfcf633881af8745965634f47148f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacdde8a3f61f86b6e45a39ae3bc7f83') in 0.006744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_42.asset
+  artifactKey: Guid(064a8f1c42563954591a52e9c47b0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_42.asset using Guid(064a8f1c42563954591a52e9c47b0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d0e1d1b9be05651d7d6e9747d3c7c2') in 0.004901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_21.asset
+  artifactKey: Guid(40aece754dbb88842b66c76fd9b8f3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_21.asset using Guid(40aece754dbb88842b66c76fd9b8f3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9929e06900fc3df513f59d9471b78c7') in 0.006404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_15.asset
+  artifactKey: Guid(c416c476f2d1641468cb291d72668241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_15.asset using Guid(c416c476f2d1641468cb291d72668241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4797dfa1ce3405930b038410b47f42a8') in 0.006863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Prefab/Grass Stone Up Right.prefab
-  artifactKey: Guid(7c100b16bddcdde47b05c548d52f4330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Grass Stone Up Right.prefab using Guid(7c100b16bddcdde47b05c548d52f4330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c5cbccd8c6cd9837b6d12eacb91e41') in 0.010005 seconds
+  path: Assets/Tilemap/TX Tileset Grass_5.asset
+  artifactKey: Guid(c907158fc25dbce45a1c005dcf8e58b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_5.asset using Guid(c907158fc25dbce45a1c005dcf8e58b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2fcc5b33f4a540bd139b20a69296d2') in 0.007744 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefab/Stone Grass Top.prefab
-  artifactKey: Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stone Grass Top.prefab using Guid(c3d22a81a2838b840b750a185f1f56c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2d74a23bc0367fa6125667cad92360') in 0.010075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
-========================================================================
-Received Import Request.
-  Time since last request: 8.013870 seconds.
-  path: Assets/Prefab/Grass.prefab
-  artifactKey: Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Grass.prefab using Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c60c3e26f1e387128dbc8b5fe9b98f') in 0.008539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/Prefab/Stone Grass Bottom.prefab
-  artifactKey: Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stone Grass Bottom.prefab using Guid(2cbaf1297158ba24eac41117d27fd9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86bcda4b3ba0c8f6f2d1d64047b22e8') in 0.008544 seconds
+  path: Assets/Tilemap/TX Tileset Grass_36.asset
+  artifactKey: Guid(56677cb640271eb458831dc484091614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_36.asset using Guid(56677cb640271eb458831dc484091614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1e394287bf1a78257d21e2c94cd890') in 0.005233 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Prefab/Stone Grass Left.prefab
-  artifactKey: Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stone Grass Left.prefab using Guid(514f603144d47534aa71bf997c9677b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fd49e93786e47591d73508f4489ace') in 0.008917 seconds
+  path: Assets/Tilemap/TX Tileset Grass_40.asset
+  artifactKey: Guid(ed436ba180d9eda4b98647e37c6a6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_40.asset using Guid(ed436ba180d9eda4b98647e37c6a6d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd918ba558366274fa79103dee06f047') in 0.005843 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 4.354078 seconds.
-  path: Assets/Prefab/Grass.prefab
-  artifactKey: Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Grass.prefab using Guid(61a3a50bdf16e674dba88df856dadc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e4cc6d278d227737d49471b7d03fb7') in 0.008727 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_33.asset
+  artifactKey: Guid(bb173a820fae6104092f082c4724ccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_33.asset using Guid(bb173a820fae6104092f082c4724ccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad10888d70b8ec88d09aaf54627b77c5') in 0.005830 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefab/Stone.prefab
-  artifactKey: Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Stone.prefab using Guid(4e1c750cef39d9046a870f447112c8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96480d5d244a27af7853676e5bd5b014') in 0.008040 seconds
+  Time since last request: 0.000011 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_12.asset
+  artifactKey: Guid(19daeead79551f443ac4e5136f6e9735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_12.asset using Guid(19daeead79551f443ac4e5136f6e9735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf94ff1b5640c114c103b33f4230b93') in 0.004303 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 62
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_13.asset
+  artifactKey: Guid(4d35a66e319c018478c4225598395480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_13.asset using Guid(4d35a66e319c018478c4225598395480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f649379f705d8831348c7dd5ec909c8') in 0.004789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_9.asset
+  artifactKey: Guid(8394c694094c4e846aadd4eaa54dd58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_9.asset using Guid(8394c694094c4e846aadd4eaa54dd58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd917e38ea3b2fe82e9729207aa0ae24c') in 0.005901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_8.asset
+  artifactKey: Guid(a69bc28fbaaf4ee40b697da058e55c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_8.asset using Guid(a69bc28fbaaf4ee40b697da058e55c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8781373d058e4823b15cc90b4f3f20') in 0.006488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_16.asset
+  artifactKey: Guid(3809547c41d926c41840b98c5640f7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_16.asset using Guid(3809547c41d926c41840b98c5640f7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b566fc14566f3107991cabe788c161') in 0.007823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_32.asset
+  artifactKey: Guid(d8fbd6261a918e042b96b03fd9782b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_32.asset using Guid(d8fbd6261a918e042b96b03fd9782b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7caf6156921daa178270b271cc34281') in 0.005691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tilemap/TX Tileset Grass_26.asset
+  artifactKey: Guid(993da6b7fee495b4e8f508ab3d211114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap/TX Tileset Grass_26.asset using Guid(993da6b7fee495b4e8f508ab3d211114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8cae473b38c26ff92b2addfccf3e52') in 0.010208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

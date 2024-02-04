@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 public class Node : MonoBehaviour
@@ -8,6 +9,7 @@ public class Node : MonoBehaviour
     public float down_socket;
     public float left_socket;
     public float right_socket;
+    
 
     public Node[] up;
     public Node[] down;

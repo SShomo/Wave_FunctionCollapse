@@ -30,7 +30,6 @@ public class WaveFunctionCollapse : MonoBehaviour
                 gridComponents.Add(newCell);
             }
         }
-
         StartCoroutine(CheckEntropy());
     }
 
