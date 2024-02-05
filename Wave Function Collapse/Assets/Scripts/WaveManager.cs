@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Unity.VisualScripting;
 using UnityEngine;
 using static UnityEditor.Progress;
 
@@ -97,7 +96,7 @@ public class WaveManager : MonoBehaviour
                     rotate.z = 0;
                 else if (gridComponents[ind].node.up_socket == select.left_socket)
                 {
-                    rotate.z = 90;
+                    rotate.z += 90;
                     float t = select.up_socket;
                     select.up_socket = select.right_socket;
                     select.right_socket = select.down_socket;
@@ -106,7 +105,7 @@ public class WaveManager : MonoBehaviour
                 }
                 else if (gridComponents[ind].node.up_socket == select.up_socket)
                 {
-                    rotate.z = 180;
+                    rotate.z += 180;
                     float t = select.up_socket;
                     float te = select.right_socket;
                     select.right_socket = select.left_socket;
@@ -116,16 +115,17 @@ public class WaveManager : MonoBehaviour
                 }
                 else if (gridComponents[ind].node.up_socket == select.right_socket)
                 {
-                    rotate.z = 270;
-                    float t = select.right_socket;
-                    select.right_socket = select.down_socket;
-                    select.down_socket = select.left_socket;
-                    select.left_socket = select.up_socket;
-                    select.up_socket = t;
+                    rotate.z -= 90;
+                    float t = select.down_socket;
+                    select.down_socket = select.right_socket;
+                    select.right_socket = select.up_socket;
+                    select.up_socket = select.left_socket;
+                    select.left_socket = t;
                 }
             }
+            return rotate;
         }
-        else if (collapsed.positon.x < width - 1)//right
+        if (collapsed.positon.x < width - 1)//right
         {
             int ind = (int)collapsed.positon.y * width + ((int)collapsed.positon.x + 1);
             if (gridComponents[ind].collapsed)
@@ -134,7 +134,7 @@ public class WaveManager : MonoBehaviour
                     rotate.z = 0;
                 else if (gridComponents[ind].node.left_socket == select.down_socket)
                 {
-                    rotate.z = 90;
+                    rotate.z += 90;
                     float t = select.up_socket;
                     select.up_socket = select.right_socket;
                     select.right_socket = select.down_socket;
@@ -143,7 +143,7 @@ public class WaveManager : MonoBehaviour
                 }
                 else if (gridComponents[ind].node.left_socket == select.left_socket)
                 {
-                    rotate.z = 180;
+                    rotate.z += 180;
                     float t = select.up_socket;
                     float te = select.left_socket;
                     select.up_socket = select.down_socket;
@@ -153,52 +153,55 @@ public class WaveManager : MonoBehaviour
                 }
                 else if (gridComponents[ind].node.left_socket == select.up_socket)
                 {
-                    rotate.z = 270;
-                    float t = select.right_socket;
-                    select.right_socket = select.down_socket;
-                    select.down_socket = select.left_socket;
-                    select.left_socket = select.up_socket;
-                    select.up_socket = t;
+                    rotate.z -= 90;
+                    float t = select.down_socket;
+                    select.down_socket = select.right_socket;
+                    select.right_socket = select.up_socket;
+                    select.up_socket = select.left_socket;
+                    select.left_socket = t;
                 }
             }
+            return rotate;
         }
-        else if (collapsed.positon.y < width - 1)
+        if (collapsed.positon.y < width - 1)
         {
             int ind = ((int)collapsed.positon.y + 1) * width + (int)collapsed.positon.x;
             if (gridComponents[ind].collapsed)
             {
-                if (gridComponents[ind].node.left_socket == select.right_socket)
+                if (gridComponents[ind].node.down_socket == select.up_socket)
                     rotate.z = 0;
-                else if (gridComponents[ind].node.left_socket == select.down_socket)
+                else if (gridComponents[ind].node.down_socket == select.right_socket)
                 {
-                    rotate.z = 90;
+                    rotate.z += 90;
                     float t = select.up_socket;
                     select.up_socket = select.right_socket;
                     select.right_socket = select.down_socket;
                     select.down_socket = select.left_socket;
                     select.left_socket = t;
                 }
-                else if (gridComponents[ind].node.left_socket == select.left_socket)
+                else if (gridComponents[ind].node.down_socket == select.down_socket)
                 {
-                    rotate.z = 90;
+                    rotate.z += 180;
                     float t = select.up_socket;
-                    select.up_socket = select.right_socket;
-                    select.right_socket = select.down_socket;
-                    select.down_socket = select.left_socket;
-                    select.left_socket = t;
+                    float te = select.right_socket;
+                    select.right_socket = select.left_socket;
+                    select.left_socket = te;
+                    select.up_socket = select.down_socket;
+                    select.down_socket = t;
                 }
-                else if (gridComponents[ind].node.left_socket == select.up_socket)
+                else if (gridComponents[ind].node.down_socket == select.left_socket)
                 {
-                    rotate.z = 270;
-                    float t = select.right_socket;
-                    select.right_socket = select.down_socket;
-                    select.down_socket = select.left_socket;
-                    select.left_socket = select.up_socket;
-                    select.up_socket = t;
+                    rotate.z -= 90;
+                    float t = select.down_socket;
+                    select.down_socket = select.right_socket;
+                    select.right_socket = select.up_socket;
+                    select.up_socket = select.left_socket;
+                    select.left_socket = t;
                 }
             }
+            return rotate;
         }
-        else if (collapsed.positon.x > 0)
+        if (collapsed.positon.x > 0)
         {
             int ind = (int)collapsed.positon.y * width + ((int)collapsed.positon.x - 1);
             if (gridComponents[ind].collapsed)
@@ -207,7 +210,7 @@ public class WaveManager : MonoBehaviour
                     rotate.z = 0;
                 else if (gridComponents[ind].node.right_socket == select.up_socket)
                 {
-                    rotate.z = 90;
+                    rotate.z += 90;
                     float t = select.up_socket;
                     select.up_socket = select.right_socket;
                     select.right_socket = select.down_socket;
@@ -216,7 +219,7 @@ public class WaveManager : MonoBehaviour
                 }
                 else if (gridComponents[ind].node.right_socket == select.right_socket)
                 {
-                    rotate.z = 180;
+                    rotate.z += 180;
                     float t = select.up_socket;
                     float te = select.left_socket;
                     select.up_socket = select.down_socket;
@@ -226,14 +229,15 @@ public class WaveManager : MonoBehaviour
                 }
                 else if (gridComponents[ind].node.right_socket == select.down_socket)
                 {
-                    rotate.z = 270;
-                    float t = select.right_socket;
-                    select.right_socket = select.down_socket;
-                    select.down_socket = select.left_socket;
-                    select.left_socket = select.up_socket;
-                    select.up_socket = t;
+                    rotate.z += 270;
+                    float t = select.down_socket;
+                    select.down_socket = select.right_socket;
+                    select.right_socket = select.up_socket;
+                    select.up_socket = select.left_socket;
+                    select.left_socket = t;
                 }
             }
+            return rotate;
         }
         return rotate;
     }
